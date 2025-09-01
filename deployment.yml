@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: sort-app-deployment
 spec:
-  replicas: 3   # عدد الـ pods
+  replicas: 3   # nums of pods
   selector:
     matchLabels:
       app: sort-app
